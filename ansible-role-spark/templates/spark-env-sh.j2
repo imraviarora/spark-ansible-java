@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
-export JAVA_TOOL_OPTS=-Djava.net.preferIPv4Stack=true
 
-SPARK_MASTER_HOST=mn1
-SPARK_LOCAL_IP=172.16.118.135
-SPARK_MASTER_PORT=7077
+export PATH=$PATH:/usr/local/spark/bin
+export SPARK_MASTER_HOST='<master-node-ip>'
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.el7_8.x86_64
+
+
+#export JAVA_TOOL_OPTS=-Djava.net.preferIPv4Stack=true
+#SPARK_MASTER_HOST=mn1
+#SPARK_LOCAL_IP=172.16.118.135
+#SPARK_MASTER_PORT=7077
 #SPARK_WORKER_PORT={{ spark.worker_work_port }}
