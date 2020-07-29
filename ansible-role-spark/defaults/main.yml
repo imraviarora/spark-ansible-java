@@ -21,7 +21,7 @@ spark:
   temp_dir: /tmp
   version: 2.4.6
   hadoop_version: 2.7
-  working_dir: /var/lib/spark
+  working_dir: /usr/local/spark
   install_dir: /usr/local/spark
   master_work_port: 7077 
   worker_work_port: 7078
