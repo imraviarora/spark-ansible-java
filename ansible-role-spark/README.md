@@ -74,3 +74,8 @@ navigate a web browser to http://<master>:7077/ and you should see the spark mas
 
 - integrate zookeeper
 - add ubuntu support
+
+----
+java path
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64
+----
