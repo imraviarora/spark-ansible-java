@@ -75,7 +75,12 @@ navigate a web browser to http://<master>:7077/ and you should see the spark mas
 - integrate zookeeper
 - add ubuntu support
 
+# Troubleshoot
+
+if spark not running on 8080 port then
+check java_home in system and update it into this file and re-run playbook
+Filename: roles/ansible-spark/templates/spark-env-sh.j2
+You can find java at /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64
+
 ----
-java path
-/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-0.el7_8.x86_64
 ----
